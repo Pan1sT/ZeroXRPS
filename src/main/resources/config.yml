@@ -1,0 +1,51 @@
+GUI:
+  title: "&bRPS"
+  win: "&aYou Have Won!"
+  lose: "&cYou Have Lost!"
+  draw: "&eDraw!"
+GUIItems:
+  # Choices
+  Rock:
+    name: "&aRock"
+    item: STONE
+    lore:
+      - "ROCK"
+  Paper:
+    name: "&bPaper"
+    item: PAPER
+    lore:
+      - "PAPER"
+  Scissor:
+    name: "&cScissor"
+    item: SHEARS
+    lore:
+      - "SCISSOR"
+  # Glass Pane
+  Win:
+    name: "&aWinner"
+    colorID: 13
+  Lose:
+    name: "&cLOSER"
+    colorID: 14
+  Draw:
+    name: "&eDRAW"
+    colorID: 4
+  # NPC HEAD
+  NPC:
+    owner: "Notch"
+    name: "&dSuper Bot"
+  # EXIT BUTTON
+  EXIT:
+    name: "&cClick To Leave!"
+  # NOTHING
+  NOTHING:
+    name: "&8NOTHING"
+    colorID: 7
+# Messages Support %player% == player.getName()
+State:
+  Win:
+    message: "&aCongratulations! You have won!"
+  Lose:
+    message: "&cSorry! You have Lost!"
+  Draw:
+    message: "&eDraw! Let's try again!"

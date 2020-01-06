@@ -1,0 +1,10 @@
+name: ZeroXRPS
+version: ${project.version}
+main: me.pan.zeroxrps.ZeroXRPS
+authors: [Pan]
+description: A Rock Paper Scissors Minigame
+commands:
+  rps:
+    description: rps
+  atk:
+    description: atk

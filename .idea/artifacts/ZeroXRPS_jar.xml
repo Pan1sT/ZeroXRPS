@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ZeroXRPS:jar">
+    <output-path>$USER_HOME$/Desktop/PluginTest/plugins</output-path>
+    <root id="archive" name="ZeroXRPS.jar">
+      <element id="module-output" name="ZeroXRPS" />
+    </root>
+  </artifact>
+</component>
